@@ -23,6 +23,7 @@ Todos los logs fueron analizados usando herramientas de línea de comando en Lin
 ✔ Git/GitHub repository management
 
 🟩 3. Logs Analysed / Logs Analizados
+
 servidor.log
 
 Authentication activity including OK events, failed login attempts, and suspicious IP access.
@@ -130,6 +131,7 @@ You're building professional, real evidence for your portfolio.
 ✔ Add dashboards (matplotlib → PDF ready)
 ✔ Add TryHackMe progress badge
 ✔ Apply for SOC Analyst roles
+
 🟩 9. Why This Matters
 
 This page demonstrates real, practical, hands-on knowledge.
