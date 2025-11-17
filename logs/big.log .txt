@@ -1,0 +1,312 @@
+2025-11-18 10:00 OK: Usuario juan inicio sesion desde 10.0.0.5
+2025-11-18 10:00 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:00 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:00 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:01 OK: Sistema operativo estable
+2025-11-18 10:01 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:01 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:01 WARNING: conexion sospechosa desde 185.231.45.90
+2025-11-18 10:02 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:02 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:02 OK: Usuario pedro inicio sesion desde 192.168.1.50
+2025-11-18 10:02 NOTICE: archivo actualizado correctamente
+2025-11-18 10:03 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:03 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:03 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:03 OK: Usuario juan cerro sesion
+
+2025-11-18 10:04 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:04 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:04 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:04 OK: conexión a servidor interno 10.0.0.8 establecida
+2025-11-18 10:05 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:05 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:05 WARNING: port scanning detectado desde 185.231.45.90
+2025-11-18 10:05 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:06 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:06 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:06 WARNING: conexion sospechosa a malware-check.evil-domain.com
+2025-11-18 10:06 OK: Usuario admin realizo tarea rutinaria
+2025-11-18 10:07 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:07 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:07 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:07 WARNING: actividad sospechosa desde 185.231.45.90
+
+2025-11-18 10:08 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:08 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:08 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:08 OK: Usuario juan inicio sesion desde 10.0.0.5
+2025-11-18 10:08 NOTICE: archivo modificado por usuario admin
+2025-11-18 10:09 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:09 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:09 WARNING: conexion saliente a suspicious-update.evil-domain.com
+
+2025-11-18 10:10 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:10 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:10 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:10 NOTICE: script ejecutado correctamente
+2025-11-18 10:11 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:11 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:11 OK: Usuario pedro cerro sesion
+
+2025-11-18 10:12 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:12 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:12 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:12 WARNING: port scanning detectado desde 185.231.45.90
+2025-11-18 10:13 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:13 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:13 OK: consulta interna a base de datos desde 10.0.0.15
+
+2025-11-18 10:14 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:14 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:14 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:14 WARNING: conexion sospechosa a backup-sync.evil-domain.com
+2025-11-18 10:15 OK: Usuario juan inicio sesion desde 10.0.0.5
+2025-11-18 10:15 NOTICE: archivo de configuracion actualizado
+2025-11-18 10:15 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:16 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:16 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:16 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:16 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:16 OK: Usuario pedro inicio sesion desde 192.168.1.50
+
+2025-11-18 10:17 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:17 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:17 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:17 NOTICE: servicio reiniciado correctamente
+2025-11-18 10:18 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:18 WARNING: conexion saliente a malware-check.evil-domain.com
+2025-11-18 10:18 OK: Usuario admin aplico politicas de seguridad
+
+2025-11-18 10:19 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:19 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:19 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:19 OK: consulta exitosa a servidor interno 10.0.0.20
+2025-11-18 10:20 WARNING: conexion sospechosa desde 185.231.45.90
+2025-11-18 10:20 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:21 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:21 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:21 OK: Usuario juan cerro sesion
+2025-11-18 10:22 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:22 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:22 WARNING: actividad sospechosa desde 185.231.45.90
+
+2025-11-18 10:23 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:23 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:23 OK: proceso de respaldo interno completado
+2025-11-18 10:24 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:24 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:24 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:25 OK: conexión con 192.168.1.1 establecida
+2025-11-18 10:25 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:25 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:26 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:26 WARNING: intento de acceso no autorizado detectado
+2025-11-18 10:26 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:27 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:27 OK: servicio DNS interno funcionando correctamente
+2025-11-18 10:27 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:27 WARNING: conexion saliente a suspicious-update.evil-domain.com
+
+2025-11-18 10:28 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:28 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:28 NOTICE: configuracion de firewall aplicada
+2025-11-18 10:29 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:29 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:30 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:30 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:30 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:31 OK: Usuario pedro cerro sesion
+
+2025-11-18 10:31 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:31 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:31 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:32 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:32 OK: proceso interno completado exitosamente
+
+2025-11-18 10:33 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:33 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:33 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:33 WARNING: trafico sospechoso a malware-check.evil-domain.com
+2025-11-18 10:34 OK: Usuario juan inicio sesion desde 10.0.0.5
+
+2025-11-18 10:35 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:35 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:35 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:35 WARNING: actividad sospechosa desde 185.231.45.90
+
+2025-11-18 10:36 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:36 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:36 OK: configuracion del sistema validada
+2025-11-18 10:36 WARNING: conexion saliente a suspicious-update.evil-domain.com
+
+2025-11-18 10:37 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:37 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:37 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:37 NOTICE: tarea automatizada ejecutada correctamente
+
+2025-11-18 10:38 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:38 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:38 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:38 OK: acceso correcto a servidor interno
+
+2025-11-18 10:39 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:39 WARNING: escaneo de puertos detectado desde 185.231.45.90
+2025-11-18 10:39 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:39 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:40 OK: sistema operativo funcionando correctamente
+2025-11-18 10:40 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:40 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:40 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:41 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:41 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:41 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:41 OK: servicio HTTP reiniciado
+
+2025-11-18 10:42 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:42 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:42 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:42 WARNING: conexion sospechosa a malware-check.evil-domain.com
+
+2025-11-18 10:43 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:43 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:43 WARNING: escaneo de puertos detectado desde 185.231.45.90
+2025-11-18 10:43 NOTICE: proceso interno finalizado
+
+2025-11-18 10:44 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:44 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:44 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:44 OK: Usuario pedro inicio sesion desde 192.168.1.50
+
+2025-11-18 10:45 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:45 WARNING: conexion con dominio sospechoso suspicious-update.evil-domain.com
+2025-11-18 10:45 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:45 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:46 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:46 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:46 OK: operacion interna completada correctamente
+2025-11-18 10:46 NOTICE: servicio de logs rotado
+
+2025-11-18 10:47 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:47 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:47 WARNING: intento de acceso no autorizado detectado
+2025-11-18 10:47 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:48 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:48 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:48 OK: Usuario admin realizo mantenimiento programado
+2025-11-18 10:48 WARNING: escaneo de puertos detectado desde 185.231.45.90
+
+2025-11-18 10:49 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:49 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:49 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:49 NOTICE: configuracion de seguridad aplicada
+
+2025-11-18 10:50 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:50 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:50 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:50 OK: Usuario juan cerro sesion
+
+2025-11-18 10:51 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:51 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:51 WARNING: conexion con comportamiento anomalo detectada
+2025-11-18 10:51 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:52 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:52 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:52 OK: Sistema funcionando sin problemas
+2025-11-18 10:52 WARNING: conexion saliente a malware-check.evil-domain.com
+
+2025-11-18 10:53 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:53 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:53 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:53 NOTICE: proceso terminado con exito
+
+2025-11-18 10:54 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:54 WARNING: escaneo de puertos detectado desde 185.231.45.90
+2025-11-18 10:54 OK: Usuario pedro cerro sesion
+2025-11-18 10:54 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 10:55 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:55 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:55 WARNING: actividad maliciosa detectada
+2025-11-18 10:55 ERROR: intento fallido desde 203.0.113.10
+
+2025-11-18 10:56 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:56 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:56 OK: sistema operativo estable
+2025-11-18 10:56 WARNING: conexion con dominio sospechoso suspicious-update.evil-domain.com
+
+2025-11-18 10:57 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:57 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:57 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:57 NOTICE: logs actualizados correctamente
+
+2025-11-18 10:58 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:58 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:58 WARNING: intento de acceso no autorizado detectado
+2025-11-18 10:58 OK: Usuario admin aplico cambios finales
+
+2025-11-18 10:59 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 10:59 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 10:59 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 10:59 OK: conexion interna establecida correctamente
+
+2025-11-18 11:00 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:00 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:00 WARNING: escaneo de puertos detectado desde 185.231.45.90
+2025-11-18 11:00 OK: proceso interno completado
+
+2025-11-18 11:01 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:01 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:01 WARNING: conexion saliente a malware-check.evil-domain.com
+2025-11-18 11:01 OK: Usuario juan inicio sesion desde 10.0.0.5
+
+2025-11-18 11:02 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:02 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:02 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:02 NOTICE: archivo actualizado correctamente
+
+2025-11-18 11:03 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:03 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 11:03 OK: sistema operativo funcionando correctamente
+2025-11-18 11:03 ERROR: intento fallido desde 198.51.100.50
+
+2025-11-18 11:04 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:04 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:04 WARNING: conexion con dominio sospechoso suspicious-update.evil-domain.com
+2025-11-18 11:04 OK: respaldo automatico completado
+
+2025-11-18 11:05 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:05 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:05 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:05 NOTICE: proceso interno finalizado correctamente
+
+2025-11-18 11:06 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:06 WARNING: escaneo de puertos detectado desde 185.231.45.90
+2025-11-18 11:06 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:06 OK: Usuario pedro inicio sesion desde 192.168.1.50
+
+2025-11-18 11:07 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:07 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:07 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:07 WARNING: conexion saliente a malware-check.evil-domain.com
+
+2025-11-18 11:08 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:08 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:08 OK: configuracion del sistema validada
+2025-11-18 11:08 NOTICE: servicio interno completado
+
+2025-11-18 11:09 ERROR: intento fallido desde 203.0.113.10
+2025-11-18 11:09 WARNING: actividad sospechosa desde 185.231.45.90
+2025-11-18 11:09 ERROR: intento fallido desde 198.51.100.50
+2025-11-18 11:09 OK: proceso automatizado ejecutado sin errores
