@@ -120,7 +120,10 @@ Soy disciplinado, enfocado y comprometido.
 
 # 📬 Contact
 
-**Juan Rey**  
-(Email profesional pendiente)  
-(LinkedIn pendiente)  
+# 📬 Contact
+
+**Juan Rey – SOC Analyst (Entry-level)**  
+📧 Email: **juanreycyber@gmail.com**  
+🔗 LinkedIn: *(coming soon)*  
+🌐 GitHub: **https://github.com/juanrey-cyber**
 
