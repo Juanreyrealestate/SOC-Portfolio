@@ -120,5 +120,7 @@ Soy disciplinado, enfocado y comprometido.
 📬 Contact
 
 Juan Rey
-Email: (agregar email)
-LinkedIn: (agregar LinkedIn)
+📩 Contact  
+Email: coming soon  
+LinkedIn: coming soon
+
