@@ -4,9 +4,6 @@
   <img src="https://img.shields.io/badge/Bash_Scripting-121011?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash Scripting" />
   <img src="https://img.shields.io/badge/Log_Analysis-2D3748?style=flat-square&logo=graylog&logoColor=white" alt="Log Analysis" />
   <img src="https://img.shields.io/badge/Threat_Detection-4C1D95?style=flat-square&logo=virustotal&logoColor=white" alt="Threat Detection" />
-
-  <br/>
-
   <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=00E572" alt="Splunk" />
   <img src="https://img.shields.io/badge/SIEM_Logic-0F766E?style=flat-square&logo=securityscorecard&logoColor=white" alt="SIEM Logic" />
   <img src="https://img.shields.io/badge/Cybersecurity-1A1D21?style=flat-square&logo=protonvpn&logoColor=32E676" alt="Cybersecurity" />
