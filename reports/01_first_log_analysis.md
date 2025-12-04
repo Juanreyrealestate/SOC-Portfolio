@@ -21,4 +21,4 @@ Observaciones
  
 Conclusión
 Hoy no encontré un ataque real, pero aprendí dónde buscaría evidencia de accesos fallidos y empecé a diferenciar en mi cabeza qué podría ser un error humano vs. un ataque intencional.
-<img width="442" height="617" alt="image" src="https://github.com/user-attachments/assets/463488f5-cd9d-4e97-bb31-56377995f48d" />
+
