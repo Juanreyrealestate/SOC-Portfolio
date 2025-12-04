@@ -78,4 +78,4 @@ Esto corresponde a la técnica MITRE ATT&CK:
 ## 📝 6. Resumen corto
 
 Se observó que la cuenta de un usuario legítimo fue utilizada para iniciar sesión en máquinas donde normalmente no tiene actividad, incluyendo un servidor financiero.  
-El pa
+El patrón indica **movimiento lateral** dentro de la red para alcanzar información sensible, lo que sugiere compromiso de cuenta y requiere respuesta inmediata.
