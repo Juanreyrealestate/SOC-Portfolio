@@ -1,130 +1,125 @@
-<p align="center">
+<div align="center">
 
-  <img src="https://img.shields.io/badge/Linux-black?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/Bash_Scripting-121011?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash Scripting" />
-  <img src="https://img.shields.io/badge/Log_Analysis-2D3748?style=flat-square&logo=graylog&logoColor=white" alt="Log Analysis" />
-  <img src="https://img.shields.io/badge/Threat_Detection-4C1D95?style=flat-square&logo=virustotal&logoColor=white" alt="Threat Detection" />
-  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=00E572" alt="Splunk" />
-  <img src="https://img.shields.io/badge/SIEM_Logic-0F766E?style=flat-square&logo=securityscorecard&logoColor=white" alt="SIEM Logic" />
-  <img src="https://img.shields.io/badge/Cybersecurity-1A1D21?style=flat-square&logo=protonvpn&logoColor=32E676" alt="Cybersecurity" />
-  <img src="https://img.shields.io/badge/Incident_Response-B91C1C?style=flat-square&logo=datadog&logoColor=white" alt="Incident Response" />
+# 🛡️ SOC / Threat Detection Portfolio — **Juan Rey**  
+### *Blue Team • Incident Response • Threat Hunting • Log Analysis • Cyber Defense*
 
-</p>
-
-
-# 🛡️ SOC Analyst Portfolio — Juan Rey  
-**Bilingual (English / Español)**  
-Hands-on investigations • Log analysis • Threat detection • Linux • SIEM logic • Attack reconstruction  
+Bilingual (EN/ES) • AI-Proof Reasoning • Real Investigations • Linux • SIEM • Attack Reconstruction
 
 ---
 
-# 📌 Table of Contents
-1. [About Me (EN)](#about-me-en)  
-2. [Sobre mí (ES)](#sobre-mí-es)  
-3. [Repository Structure](#repository-structure)  
-4. [SOC Investigations](#soc-investigations)  
-5. [Skills Demonstrated](#skills-demonstrated)  
-6. [Training & Certifications](#training--certifications)  
-7. [Why Hire Me?](#why-hire-me)  
-8. [Contacto / Contact](#contact)
+</div>
+
+# 📌 **About This Portfolio**
+This repository showcases **hands-on cybersecurity investigations** performed manually using:
+
+- Linux log analysis  
+- Threat detection logic  
+- Structured SOC methodology  
+- Behavioral + contextual reasoning (AI-Proof)  
+- Early-stage Incident Response techniques  
+
+Everything here is built to demonstrate **real, practical security skills** — not theoretical notes.
 
 ---
 
-## ⚡ About Me (EN)
+# 🧭 **Career Direction**
+**Goal:** Become a **Threat Detection / IR Analyst**, specializing in:
 
-I am an entry-level cybersecurity analyst specializing in **log analysis, threat detection, Linux investigations, SIEM logic, and multi-source correlation**.
+- Attack reconstruction  
+- Log correlation  
+- Pattern analysis  
+- Human-driven reasoning (where AI still fails)  
+- High-impact investigations  
 
-My goal is to obtain my **next SOC Analyst role** while demonstrating real, hands-on experience.
-
-Everything in this repository is created **manually**, using real logs, Linux commands, structured investigations, and professional SOC methodologies.
-
-I learn fast, communicate clearly, and produce **clean, accurate, professional analysis**.
-
----
-
-## ⚡ Sobre mí (ES)
-
-Soy un analista de ciberseguridad en formación, especializado en **análisis de logs, detección de amenazas, investigación en Linux, lógica SIEM y correlación de múltiples fuentes**.
-
-Mi objetivo es obtener mi primer trabajo como SOC Analyst, demostrando **experiencia práctica real**.
-
-Todo en este repositorio está creado a mano: comandos, reconstrucciones de ataques, detecciones y reportes técnicos profesionales.
-
-Aprendo rápido, comunico con claridad y produzco análisis confiables.
+Short-term: SOC Analyst I → SOC Analyst II  
+Mid-term: **Incident Response**  
+Long-term: **Threat Hunter / DFIR**
 
 ---
 
-# 📁 Repository Structure
-
-
----
-
-# 🕵️ SOC Investigations  
-(Hands-on, real commands, structured methodology)
-
-| Case | Description | Files |
-|------|-------------|--------|
-| **01 — SSH Brute Force Attack** | Detection + reconstruction of distributed SSH brute force activity. | [`reports/_01_ssh_bruteforce_investigation.md`](reports/_01_ssh_bruteforce_investigation.md) |
-| **02 — Slow & Low Pattern** *(coming next)* | Long-duration, low-frequency anomaly pattern detection. | Soon |
-
+# 📂 **Repository Structure**
 
 ---
 
-# 🧠 Skills Demonstrated
+# 🔍 **Featured Investigations**
 
-### 🔹 Log Analysis  
-- grep, cut, sort, uniq, wc, regex  
-- Parsing multiline logs  
-- Internal & external IP identification  
-- Timeline reconstruction  
+### ▶️ 01 — First Log Analysis (Beginner SOC Exercise)
+**Skills demonstrated:**  
+Basic terminal navigation · authentication log expectations · error handling · human reasoning vs machine indicators  
+📄 **Report:** [/reports/01_first_log_analysis.md](reports/01_first_log_analysis.md)
 
-### 🔹 Threat & Attack Detection  
-- Brute-force detection  
-- Bot activity identification  
-- Lateral movement indicators  
-- “Slow & Low” anomaly detection  
-- Multi-source correlation (auth + network + IOCs)  
+### ▶️ 02 — (Coming Day 2)
+System behavior · attacker timing analysis · brute-force indicators · context-driven decision making
 
-### 🔹 SOC Reporting  
-- SOC-style professional PDF reports  
-- Summary / Findings / Recommendations  
-- Investigation narratives  
-
-### 🔹 SIEM & Tools  
-- Splunk fundamentals  
-- Sentinel logic  
-- Linux investigation  
-- Bash scripting basics  
+### ▶️ More reports coming weekly as part of **CYBERSCHOOL Training Program**  
+(Blue Team, IR, detection logic, real threat scenarios)
 
 ---
 
-# 🎓 Training & Certifications
+# 🧠 **AI-Proof Skills (Human-Only Capabilities)**
 
-- **Google Cybersecurity Certificate**  
-- **TryHackMe:** Linux Fundamentals, SOC Level 1, Threat Detection paths  
-- **SIEM Fundamentals** (Splunk + Sentinel logic)  
-- Detection engineering basics  
-- Windows event analysis *(coming soon)*  
+These are skills recruiters value MOST in 2025+ because AI cannot replicate them reliably:
 
----
+- Contextual reasoning  
+- Understanding human motivation behind attacks  
+- Judgment under uncertainty  
+- Business impact evaluation  
+- Distinguishing error vs malicious intent  
+- Attack path intuition  
+- Deciding when NOT to alert/escalate  
 
-# ⭐ Why Hire Me?
-
-### EN  
-Because I already demonstrate real SOC skills, I learn fast, and I communicate clearly.  
-I produce accurate, clean, reliable analysis, and I adapt quickly to new tools and environments.
-
-### ES  
-Porque ya demuestro habilidades reales de un SOC Analyst Junior.  
-Aprendo rápido, comunico con claridad y produzco análisis precisos y confiables.  
-Soy disciplinado, enfocado y comprometido.
+Your portfolio is being built **around these strengths**.
 
 ---
 
-# 📬 Contact
+# 🛠️ **Technical Skills**
+(Expanding weekly during CYBERSCHOOL)
 
-**Juan Rey – SOC Analyst (Entry-level)**  
-📧 Email: **juanreycyber@gmail.com**  
-🔗 LinkedIn: *(coming soon)*  
-🌐 GitHub: **https://github.com/juanrey-cyber**
+- Linux commands & log inspection (auth, syslog)  
+- SIEM fundamentals (Splunk/Elastic/Wazuh – coming)  
+- Log parsing & pattern detection  
+- Network basics (ports, protocols, traceroute, unusual traffic)  
+- Terminal-based investigations  
+- Markdown reporting for IR/SOC  
+- Early-stage Incident Response logic  
+
+---
+
+# 🚀 **Training Program: CYBERSCHOOL**
+A custom, high-performance cybersecurity learning system designed to:
+
+- Build real SOC/IR skills  
+- Avoid noise and unnecessary theory  
+- Focus on human decision-making  
+- Develop detection logic and reasoning  
+- Create weekly, portfolio-ready investigations  
+
+Weekly uploads will appear in `/reports` and `/playbooks`.
+
+---
+
+# 🧑‍💼 **Why Hire Me?**
+- I demonstrate **structured thinking** and **clear communication**.  
+- I understand **how attackers behave**, not just what logs say.  
+- I combine **technical skills + human reasoning**, which is essential in modern SOC roles.  
+- My learning path is optimized for **real-world performance**, not academic memorization.  
+- I produce **clean, professional documentation** (like this portfolio).  
+
+---
+
+# 🌐 **Contact / Connect**
+📩 Email: *to be added*  
+🔗 LinkedIn: *coming soon*  
+🗂️ GitHub: https://github.com/juanrey-cyber  
+🌍 Location: USA (Remote-ready)
+
+---
+
+<div align="center">
+
+### **This portfolio updates WEEKLY — new investigations, detection logic, and playbooks coming next.**  
+Stay tuned. 🔥
+
+</div>
+
 
