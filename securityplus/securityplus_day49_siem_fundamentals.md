@@ -1,95 +1,129 @@
-# Security+ — Día 49  
-# SIEM Fundamentals explicado fácil
+# 🔐 Security+ — Día 49  
+# SIEM Fundamentals (Splunk, Sentinel, Elastic) — Versión Clara y Estética
 
-Objetivo:
-Comprender qué es un SIEM, qué logs procesa, cómo genera alertas y cómo trabaja un analista SOC con Splunk, Sentinel o Elastic.
+============================================================
+🎯 OBJETIVO
+============================================================
+Entender qué es un SIEM, cómo trabaja, qué logs procesa, qué alertas genera y cómo investiga un analista SOC.  
+Esto es fundamental para entrevistas y para roles SOC I, SOC II y Threat Hunter Jr.
 
-------------------------------------------------------------
-1. Qué es un SIEM
-------------------------------------------------------------
-Un SIEM es una plataforma que:
-- recolecta logs
-- normaliza la información
-- correlaciona eventos
-- genera alertas
-- permite investigar incidentes
+============================================================
+1) ¿QUÉ ES UN SIEM?
+============================================================
+Un SIEM es una plataforma central que:
+• Recolecta logs  
+• Normaliza datos  
+• Correlaciona eventos  
+• Detecta actividad sospechosa  
+• Genera alertas  
+• Permite investigar incidentes  
 
-Ejemplos:
-Splunk
-Microsoft Sentinel
-Elastic SIEM
-QRadar
-ArcSight
+Ejemplos reales usados por empresas:
+• Splunk  
+• Microsoft Sentinel  
+• Elastic SIEM  
+• QRadar  
+• ArcSight  
 
-------------------------------------------------------------
-2. Qué hace un SIEM
-------------------------------------------------------------
-Recolección: obtiene logs de Windows, Linux, firewalls, aplicaciones, cloud, EDR.
-Normalización: convierte todos los logs a un formato entendible.
-Correlación: detecta patrones sospechosos combinando eventos.
-Alertas: crea notificaciones cuando algo parece ataque.
-Investigación: permite hacer búsquedas, análisis y reconstruir incidentes.
+============================================================
+2) ¿QUÉ FUNCIONES REALIZA UN SIEM?
+============================================================
+• Recolección de logs desde Windows, Linux, firewalls, cloud y EDR  
+• Correlación de eventos entre múltiples fuentes  
+• Análisis de comportamiento  
+• Generación automática de alertas  
+• Dashboards para investigación  
+• Reporting para cumplimiento  
 
-------------------------------------------------------------
-3. Logs más comunes dentro de un SIEM
-------------------------------------------------------------
-Windows Event Logs: 4624, 4625, 4672, 4104, etc.
-Sysmon: creación de procesos, conexiones de red, hashes.
-Linux: auth log, ssh logs, sudo usage.
-Firewall: tráfico permitido o bloqueado.
-Cloud: cambios en IAM, permisos, buckets.
-EDR: detecciones, malware, C2, beaconing.
+============================================================
+3) LOGS MÁS IMPORTANTES ENVIADOS AL SIEM
+============================================================
+WINDOWS:  
+• 4624 (login exitoso)  
+• 4625 (login fallido)  
+• 4672 (privilegios especiales)  
+• PowerShell 4103 / 4104  
+• Sysmon (procesos, conexiones, hashes)  
 
-------------------------------------------------------------
-4. Cómo ve un SOC las alertas dentro del SIEM
-------------------------------------------------------------
-Ejemplo alerta fuerza bruta:
-Multiple failed logins for user admin desde IP externa.
-Interpretación: ataque automatizado.
+LINUX:  
+• auth.log (SSH, sudo, login)  
+• syslog (sistema, servicios)  
 
-Ejemplo alerta PowerShell sospechoso:
-EncodedCommand ejecutado por powershell.exe lanzado por winword.exe.
-Interpretación: macro maliciosa o script malicioso.
+FIREWALL:  
+• tráfico permitido/denegado  
+• puertos y direcciones  
 
-Ejemplo alerta C2:
-Conexiones periódicas a IP desconocida desde un proceso raro.
-Interpretación: beaconing.
+CLOUD:  
+• Cambios en IAM, buckets, permisos, roles  
 
-------------------------------------------------------------
-5. Flujo de investigación en un SIEM
-------------------------------------------------------------
-1. Revisar la alerta: usuario, host, hora, tipo de evento.
-2. Buscar eventos relacionados: logon, procesos, red, sysmon.
-3. Contextualizar: IP válida, hora esperada, usuario legítimo.
-4. Determinar si es benigno, falso positivo o incidente real.
-5. Escalar si es necesario.
+EDR:  
+• detecciones de malware  
+• actividad sospechosa  
+• comunicación con C2  
 
-------------------------------------------------------------
-6. Detecciones típicas en SIEM
-------------------------------------------------------------
-Fuerza bruta: muchos intentos fallidos seguidos.
-RDP sospechoso: logon type 10 desde IP interna rara.
-PowerShell peligroso: comandos codificados o lanzados por Office.
-Persistencia: creación de nuevos usuarios o servicios.
-C2: conexiones salientes repetidas.
-SSH brute force: muchos failed password en Linux auth log.
+============================================================
+4) ¿CÓMO SE VEN ALERTAS REALES EN EL SIEM?
+============================================================
+Alerta típica de fuerza bruta:
+• Múltiples intentos fallidos de login para un usuario  
+• Misma IP intentando repetidamente  
+Interpretación: posible ataque automatizado
 
-------------------------------------------------------------
-7. Preguntas comunes de entrevista
-------------------------------------------------------------
-Qué es un SIEM: plataforma para recolectar logs, correlarlos y generar alertas.
-Qué logs entran en un SIEM: Windows, Linux, firewall, EDR, cloud.
-Cómo detectar fuerza bruta: múltiples eventos fallidos seguidos por uno exitoso.
-Qué evento indica PowerShell sospechoso: comandos codificados o llamados desde procesos no usuales.
-Por qué es importante Sysmon: porque muestra procesos, parent processes, conexiones de red y hashes.
+Alerta de PowerShell sospechoso:
+• Uso de comandos codificados  
+• Lanzado por procesos inusuales como Office  
+Interpretación: posible macro maliciosa
 
-------------------------------------------------------------
-Resumen Día 49
-------------------------------------------------------------
-Aprendiste:
-- funcionamiento de un SIEM
-- tipos de logs
-- ejemplos de alertas reales
-- cómo piensa un analista SOC
-- detecciones típicas
-- preguntas de entrevista
+Alerta de C2 (Command and Control):
+• Conexiones periódicas a IP desconocida  
+• Proceso extraño comunicándose hacia afuera  
+Interpretación: beaconing de malware
+
+============================================================
+5) CÓMO INVESTIGA UN ANALISTA SOC EN EL SIEM
+============================================================
+1. Revisar la alerta  
+2. Confirmar usuario, host, horario  
+3. Revisar logs relacionados (Windows, Sysmon, firewall)  
+4. Correlacionar actividad antes y después  
+5. Determinar si es falso positivo o incidente real  
+6. Escalar si corresponde  
+
+============================================================
+6) DETECCIONES SOC MÁS COMUNES
+============================================================
+• Fuerza bruta → muchos 4625 seguidos, luego 4624  
+• RDP sospechoso → logon type 10 desde IP inusual  
+• PowerShell peligroso → comandos codificados  
+• Persistencia → creación de usuarios o servicios nuevos  
+• C2 → conexiones repetidas a IP desconocida  
+• SSH brute force en Linux  
+
+============================================================
+7) PREGUNTAS DE ENTREVISTA
+============================================================
+• ¿Qué es un SIEM?  
+  Plataforma que recolecta, correlaciona y alerta sobre eventos.
+
+• ¿Qué logs entran?  
+  Windows, Linux, firewall, EDR, cloud.
+
+• ¿Cómo detectas fuerza bruta?  
+  Secuencia de múltiples intentos fallidos seguida por uno exitoso.
+
+• ¿Cómo detectas PowerShell malicioso?  
+  Comandos codificados o procesos parent sospechosos.
+
+• ¿Por qué Sysmon es tan importante?  
+  Porque revela procesos, conexiones, parent-child processes y hashes.
+
+============================================================
+⭐ RESUMEN DEL DÍA 49
+============================================================
+Hoy aprendiste:  
+• Cómo funciona un SIEM  
+• Qué logs procesa  
+• Cómo se ven alertas reales  
+• Cómo investiga un SOC  
+• Cuáles son las detecciones más comunes  
+• Qué suelen preguntar en entrevistas  
