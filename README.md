@@ -42,3 +42,15 @@ Example:
 - Ubuntu Linux
 - Native Linux logging
 - GitHub for documentation
+
+## How I Think as a SOC Analyst
+
+Each case in this repository follows a structured SOC workflow:
+- Detection
+- Validation
+- Investigation
+- Risk Assessment
+- Severity & Confidence
+- Recommendation & Escalation Decision
+
+The focus is not on tools, but on analytical reasoning.
