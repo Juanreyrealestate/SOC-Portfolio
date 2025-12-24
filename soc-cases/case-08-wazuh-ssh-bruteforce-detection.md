@@ -21,9 +21,10 @@ This case documents the detection and investigation of repeated SSH authenticati
 Repeated SSH authentication failures were observed in `/var/log/auth.log`, including invalid-user attempts and failed passwords.
 
 **Command used**
-```bash
+
 
 sudo grep -nE "Failed password|Invalid user|authentication failure" /var/log/auth.log | tail -n 80
+
 Observed indicators
 
 High frequency of failed attempts in a short time window
