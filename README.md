@@ -30,6 +30,10 @@ This repository is built to be **recruiter-friendly**: quick overview + direct a
 
 ## Repository Map (fast navigation)
 
+- ## Start Here
+- **SOC Cases (Index):** [Open the case studies folder](./soc-cases/)
+- **Latest case:** [Case 08 — Wazuh SSH Brute Force Detection (Ubuntu)](./soc-cases/case-08-wazuh-ssh-bruteforce-detection.md)
+
 - **SOC Case Studies:** `./soc-cases/`
 - **Reports:** `./reports/`
 - **Playbooks:** `./playbooks/`
