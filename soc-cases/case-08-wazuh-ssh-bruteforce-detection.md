@@ -56,6 +56,18 @@ id analyst
 Result:
 Host confirmed as Ubuntu-lab. Analyst user context validated.
 
+## Supporting Evidence
+
+Relevant log excerpts used during this investigation are documented here:
+
+- [Log Evidence – Case 08](../logs/case-08-log-snippets.md)
+
+Logs were reviewed manually to validate:
+- SSH authentication failures
+- Absence of successful compromise
+- Correct Fail2ban behavior
+
+
 ---
 
 2) Confirm brute-force pattern in auth log
