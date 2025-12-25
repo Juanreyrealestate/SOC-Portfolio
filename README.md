@@ -80,6 +80,6 @@ Each case study follows a consistent structure:
 ## Contact
 
 If you’d like to discuss my SOC workflow or any case study:
-- LinkedIn: (add link)
-- Email: (add email)
+- LinkedIn: (https://www.linkedin.com/in/juanrey-cyber)
+- Email: (juanreycyber@gmail.com)
 
