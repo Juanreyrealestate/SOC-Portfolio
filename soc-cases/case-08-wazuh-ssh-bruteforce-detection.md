@@ -56,6 +56,53 @@ id analyst
 Result:
 Host confirmed as Ubuntu-lab. Analyst user context validated.
 
+## Lab Notes — Why I only got 3 password prompts (and why Fail2ban didn't ban)
+
+### 1) Why SSH asked for only **3 passwords**
+When you run `ssh user@host`, the SSH **client** (your terminal) typically allows only a limited number of password prompts.
+- Most OpenSSH clients default to **3 password prompts** (`NumberOfPasswordPrompts 3`).
+- So you see: password → wrong → password → wrong → password → wrong → then **Permission denied**.
+This is normal and does **not** mean Fail2ban is blocking you yet. It just means the SSH client stopped trying.
+
+**Mental model:**  
+- SSH **client limit** = how many times your terminal will ask you for a password.  
+- Fail2ban **maxretry** = how many failed events are allowed **in the logs** within a time window before banning an IP.
+
+---
+
+### 2) Why Fail2ban showed 0 banned (and the "Ignore 127.0.0.1" message)
+Fail2ban bans IPs based on **log events**. In lab testing, two common reasons prevent bans:
+
+#### A) You were testing from localhost (127.0.0.1)
+When you do `ssh fakeuser@localhost`, the source IP is **127.0.0.1** (your own machine).
+Fail2ban often ignores your own host by default (to avoid locking yourself out).
+That’s why you saw log lines like:
+- `Ignore 127.0.0.1 by ignoreself rule`
+
+✅ Meaning: Fail2ban is working, but it is **refusing to ban your own machine**.
+
+#### B) Your test IP is in `ignoreip` / local ranges
+If your attack source is from a “local” network (example: Docker bridge networks), Fail2ban may ignore it depending on config.
+In Docker default bridge mode:
+- Container IP is usually like `172.17.0.2`
+- Host (Docker bridge gateway) is usually `172.17.0.1`
+
+If `ignoreip` includes local ranges, you may never see bans.
+
+---
+
+### 3) How to correctly test Fail2ban in a lab (safe approach)
+Goal: generate failed SSH attempts from a source IP that Fail2ban is allowed to ban.
+
+**Best lab approach:**
+- Generate attempts from a Docker container (source = container IP, e.g., `172.17.0.2`)
+- Ensure `ignoreip` does **not** include `172.17.0.0/16`
+- Confirm the jail is enabled (`sshd`) and reading SSH logs correctly
+
+**Expected outcome:**
+- After `maxretry` failures within `findtime`, Fail2ban should ban the container IP.
+
+
 ## Supporting Evidence
 
 Relevant log excerpts used during this investigation are documented here:
